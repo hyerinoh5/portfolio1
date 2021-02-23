@@ -137,10 +137,14 @@ p {
   color: var(--color-white);
   display: none;
 }
+.navbar__logo img {
+  width: 60px;
+  height: 60px;
+}
 
 /* home */
 #home {
-  background: url("imgs/bk.png") center/cover no-repeat;
+  background: url("imgs/Background1.png") center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
@@ -279,9 +283,10 @@ p {
 
 .tools {
   background-color: var(--color-grey);
+  flex-basis: 50%;
 }
 .tools,
-.etx {
+.etc {
   padding: 20px;
 }
 
